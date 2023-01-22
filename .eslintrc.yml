@@ -1,0 +1,14 @@
+env:
+  browser: true
+  es2022: true
+extends:
+  - plugin:vue/vue3-essential
+  - standard
+overrides: []
+parserOptions:
+  ecmaVersion: latest
+globals: 
+  Vue: true
+plugins:
+  - vue
+rules: {}
